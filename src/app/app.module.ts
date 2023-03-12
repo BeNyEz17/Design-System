@@ -5,10 +5,12 @@ import { AppComponent } from './app.component';
 import { CardComponent } from './components/cards/card/card.component';
 
 import { NgHeroiconsModule } from "@dimaslz/ng-heroicons";
+import { ConnexionCardComponent } from './connexion-card/connexion-card.component';
 @NgModule({
   declarations: [
     AppComponent,
-    CardComponent
+    CardComponent,
+    ConnexionCardComponent
   ],
   imports: [
     BrowserModule,
